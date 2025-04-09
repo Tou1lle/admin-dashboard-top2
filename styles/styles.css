@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "hyperoxide";
+  src: url(../assets/fonts/hyper_oxide-webfont.woff2) format(woff2),
+       url(../assets/fonts/hyper_oxide-webfont.woff) format(woff);
+  font-weight: normal;
+}
+
 :root {
   --light-blue: #30a2e4c6;
   --white-text: #FFF;
@@ -38,7 +45,7 @@ div.sidebar {
   display: grid;
   gap: 2rem;
   align-content: start;
-  font-weight: bold;
+  font-family: "hyperoxide", Arial, Helvetica, sans-serif;;
 }
 
 /* dashboard layout */
