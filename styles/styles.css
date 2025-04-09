@@ -188,11 +188,14 @@ div.main {
   display: grid;
   grid-template-columns: 4fr 1fr;
   padding: 1rem;
+  row-gap: 2rem;
 }
 
 .main .your-projects {
   grid-row: 1 / 3;
 }
+
+/* --- */
 
 .announcements-container {
   background: var(--white-text);
@@ -213,4 +216,30 @@ div.main {
   border-bottom: 1px solid var(--input-bg);
   margin-bottom: 0.6rem;
   padding-bottom: 0.6rem;
+}
+
+/* --- */
+.trending-container {
+  background-color: var(--white-text);
+  font-size: 0.8rem;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 0.7rem;
+}
+
+.trending-person {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 0.7rem;
+}
+
+.trending-profile {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--input-bg);
+}
+
+.trending-person:not(:last-child) {
+  margin-bottom: 2rem;
 }
