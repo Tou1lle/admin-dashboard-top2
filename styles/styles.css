@@ -36,7 +36,24 @@ div.sidebar {
   background: var(--light-blue);
   padding: 15px;
   display: grid;
-  gap: 3rem;
+  gap: 2rem;
   align-content: start;
   font-weight: bold;
+}
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dashboard-container > div:last-child {
+  font-size: 1.5rem;
+}
+
+.img-dash {
+  width: 60px;
+  height: 60px;
+  background-color: #FFF;
 }
