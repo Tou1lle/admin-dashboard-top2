@@ -6,7 +6,8 @@
 }
 
 :root {
-  --light-blue: #30a2e4c6;
+  --light-blue: #24a7f2;
+  --input-bg: #dde7eb;
   --white-text: #FFF;
   --black-text: #000;
   --font: Arial, Helvetica, sans-serif;
@@ -86,4 +87,38 @@ ul > li {
   background-color: #FFF;
   width: 1.5rem;
   height: 1.5rem;
+}
+
+/* header layout */
+div.header {
+  background-color: var(--white-text);
+  font-weight: bold;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+div.header .top-header {
+  display: grid;
+  grid-template-columns: min-content 1fr repeat(2, min-content) max-content;
+  align-items: center;
+  padding-right: 10%;
+  padding-left: 1rem;
+}
+
+.magnifier,
+.bell,
+.top-header .user-profile {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--input-bg);
+  margin: 0 1rem;
+  border-radius: 50%;
+}
+
+input {
+  width: 90%;
+  border: none;
+  background: var(--input-bg);
+  border-radius: 10px;
+  height: 2rem;
 }
