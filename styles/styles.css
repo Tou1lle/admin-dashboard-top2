@@ -185,4 +185,11 @@ button:hover {
 div.main {
   background: var(--input-bg);
   box-shadow: inset 0px 5px 10px -5px #000000;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 1rem;
+}
+
+.main .your-projects {
+  grid-row: 1 / 3;
 }
