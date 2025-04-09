@@ -193,3 +193,24 @@ div.main {
 .main .your-projects {
   grid-row: 1 / 3;
 }
+
+.announcements-container {
+  background: var(--white-text);
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 0.7rem;
+}
+
+.announcements-container p {
+  font-size: 0.7rem;
+}
+
+.announcements-container h3 {
+  font-size: 0.9rem;
+}
+
+.announcements-container div:not(:last-child) {
+  border-bottom: 1px solid var(--input-bg);
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.6rem;
+}
