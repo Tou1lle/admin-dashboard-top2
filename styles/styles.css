@@ -5,12 +5,19 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "my-android";
+  src: url(../assets/fonts/android_7-webfont.woff2) format(woff2),
+       url(../assets/fonts/android_7-webfont.woff) format(woff);
+  font-weight: normal;
+}
+
 :root {
   --light-blue: #62c2f9;
   --input-bg: #dde7eb;
   --white-text: #FFF;
   --black-text: #000;
-  --font: Arial, Helvetica, sans-serif;
+  --font: "my-android", Arial, Helvetica, sans-serif;
 }
 
 /* page layout */
@@ -46,7 +53,7 @@ div.sidebar {
   display: grid;
   gap: 2rem;
   align-content: start;
-  font-family: "hyperoxide", Arial, Helvetica, sans-serif;;
+  font-family: var(--font);
 }
 
 /* dashboard layout */
@@ -172,4 +179,10 @@ button:hover {
   outline: 2px solid black;
   color: var(--light-blue);
   background: var(--white-text);
+}
+
+/* main content layout */
+div.main {
+  background: var(--input-bg);
+  box-shadow: inset 0px 5px 10px -5px #000000;
 }
