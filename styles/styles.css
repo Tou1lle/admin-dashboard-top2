@@ -34,13 +34,14 @@ div.main {
 div.sidebar {
   color: var(--white-text);
   background: var(--light-blue);
-  padding: 15px;
+  padding: 20px;
   display: grid;
   gap: 2rem;
   align-content: start;
   font-weight: bold;
 }
 
+/* dashboard layout */
 .dashboard-container {
   display: grid;
   grid-template-columns: min-content 1fr;
@@ -53,7 +54,29 @@ div.sidebar {
 }
 
 .img-dash {
-  width: 60px;
-  height: 60px;
+  width: 3rem;
+  height: 3rem;
   background-color: #FFF;
+}
+
+/* options and settings layout */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul > li {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+.img-option,
+.img-setting {
+  background-color: #FFF;
+  width: 1.5rem;
+  height: 1.5rem;
 }
