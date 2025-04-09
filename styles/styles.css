@@ -6,7 +6,7 @@
 }
 
 :root {
-  --light-blue: #24a7f2;
+  --light-blue: #62c2f9;
   --input-bg: #dde7eb;
   --white-text: #FFF;
   --black-text: #000;
@@ -121,4 +121,55 @@ input {
   background: var(--input-bg);
   border-radius: 10px;
   height: 2rem;
+}
+
+.bottom-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.user-profile-container {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  padding-left: 1.5rem;
+  align-items: center;
+  gap: 2rem;
+}
+
+.user-message {
+  font-size: 1.5rem;
+}
+
+.user-message p:first-child {
+  font-size: 1rem;
+}
+
+.bottom-header .user-profile {
+  width: 5rem;
+  height: 5rem;
+  background: var(--input-bg);
+  border-radius: 50%;
+}
+
+.buttons-container {
+  justify-self: end;
+  padding-right: 20%;
+}
+
+button {
+  width: 7rem;
+  margin: 0 10px;
+  height: 2.5rem;
+  background-color: var(--light-blue);
+  border: none;
+  border-radius: 20px;
+  color: var(--white-text);
+}
+
+button:hover {
+  cursor: pointer;
+  outline: 2px solid black;
+  color: var(--light-blue);
+  background: var(--white-text);
 }
