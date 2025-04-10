@@ -276,7 +276,8 @@ div.main {
 
 /* icons, images instead of placeholders */
 .img-dash,
-.img-option {
+.img-option,
+.img-setting {
   background-color: transparent;
 }
 
@@ -312,4 +313,16 @@ li div:hover {
 
 .img-option.communities {
   background-image: url("../assets/icons/communities.svg");
+}
+
+.img-setting.cog {
+  background-image: url("../assets/icons/setting.svg");
+}
+
+.img-setting.support {
+  background-image: url("../assets/icons/support.svg");
+}
+
+.img-setting.privacy {
+  background-image: url("../assets/icons/privacy.svg");
 }
