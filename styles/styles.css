@@ -288,41 +288,41 @@ li div:hover {
 
 
 .img-dash {
-  background-image: url("../assets/icons/dashboard.svg");
+  background-image: url("../assets/icons/sidebar/dashboard.svg");
 }
 
 .img-option.home {
-  background-image: url("../assets/icons/home.svg");
+  background-image: url("../assets/icons/sidebar/home.svg");
 }
 
 .img-option.profile {
-  background-image: url("../assets/icons/profile.svg");
+  background-image: url("../assets/icons/sidebar/profile.svg");
 }
 
 .img-option.messages {
-  background-image: url("../assets/icons/messages.svg");
+  background-image: url("../assets/icons/sidebar/messages.svg");
 }
 
 .img-option.history {
-  background-image: url("../assets/icons/history.svg");
+  background-image: url("../assets/icons/sidebar/history.svg");
 }
 
 .img-option.tasks {
-  background-image: url("../assets/icons/tasks.svg");
+  background-image: url("../assets/icons/sidebar/tasks.svg");
 }
 
 .img-option.communities {
-  background-image: url("../assets/icons/communities.svg");
+  background-image: url("../assets/icons/sidebar/communities.svg");
 }
 
 .img-setting.cog {
-  background-image: url("../assets/icons/setting.svg");
+  background-image: url("../assets/icons/sidebar/setting.svg");
 }
 
 .img-setting.support {
-  background-image: url("../assets/icons/support.svg");
+  background-image: url("../assets/icons/sidebar/support.svg");
 }
 
 .img-setting.privacy {
-  background-image: url("../assets/icons/privacy.svg");
+  background-image: url("../assets/icons/sidebar/privacy.svg");
 }
