@@ -93,8 +93,8 @@ ul > li {
 .img-option,
 .img-setting {
   background-color: #FFF;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 /* header layout */
@@ -272,4 +272,44 @@ div.main {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
+}
+
+/* icons, images instead of placeholders */
+.img-dash,
+.img-option {
+  background-color: transparent;
+}
+
+li div:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.img-dash {
+  background-image: url("../assets/icons/dashboard.svg");
+}
+
+.img-option.home {
+  background-image: url("../assets/icons/home.svg");
+}
+
+.img-option.profile {
+  background-image: url("../assets/icons/profile.svg");
+}
+
+.img-option.messages {
+  background-image: url("../assets/icons/messages.svg");
+}
+
+.img-option.history {
+  background-image: url("../assets/icons/history.svg");
+}
+
+.img-option.tasks {
+  background-image: url("../assets/icons/tasks.svg");
+}
+
+.img-option.communities {
+  background-image: url("../assets/icons/communities.svg");
 }
