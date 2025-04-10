@@ -277,7 +277,9 @@ div.main {
 /* icons, images instead of placeholders */
 .img-dash,
 .img-option,
-.img-setting {
+.img-setting,
+.magnifier,
+.bell {
   background-color: transparent;
 }
 
@@ -325,4 +327,19 @@ li div:hover {
 
 .img-setting.privacy {
   background-image: url("../assets/icons/sidebar/privacy.svg");
+}
+
+.magnifier {
+  background-image: url("../assets/icons/header/magnify.svg");
+}
+
+.bell {
+  background-image: url("../assets/icons/header/bell.svg");
+}
+
+.user-profile,
+.bottom-header .user-profile {
+  background-image: url("../assets/icons/header/me-jojo.JPEG");
+  background-size: cover;
+  background-position: 80% 70%;
 }
