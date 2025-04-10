@@ -17,6 +17,7 @@
   --input-bg: #dde7eb;
   --white-text: #FFF;
   --black-text: #000;
+  --orange-card-border: #ffae00;
   --font: "my-android", Arial, Helvetica, sans-serif;
 }
 
@@ -242,4 +243,33 @@ div.main {
 
 .trending-person:not(:last-child) {
   margin-bottom: 2rem;
+}
+
+/* --- */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 15px;
+  gap: 15px;
+}
+
+.card {
+  background: var(--white-text);
+  border-left: 5px solid var(--orange-card-border);
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.card-icons {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: end;
+  gap: 0.7rem;
+}
+
+.card-icon {
+  background-color: var(--input-bg);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
 }
